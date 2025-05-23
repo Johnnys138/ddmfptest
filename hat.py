@@ -10,8 +10,8 @@ import time
 import html
 from urllib.parse import urljoin
 
-MFPLINK = "LINKMFP"
-MFPPSW = "MFPPSW"
+MFPLINK = "https://simonphil-streamtest.hf.space"
+MFPPSW = "011"
 # Funzioni dal tuo mpd_decoder.py
 def extract_mpd_link_from_page(url):
     """Estrae il link MPD da una pagina HTML che contiene un iframe con player.html#"""
